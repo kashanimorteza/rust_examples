@@ -1,11 +1,13 @@
 use self::models::*;
 use diesel::prelude::*;
-use orm_1::*;
+use connection::*;
 
 pub mod models;
-pub mod schema;
+mod schema;
+mod connection;
 
-fn main() {
+fn main() 
+{
     use self::schema::posts::dsl::*;
 
     let connection = &mut establish_connection();
