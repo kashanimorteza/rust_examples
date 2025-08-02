@@ -1,0 +1,8 @@
+[package]
+name = "orm_1"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+diesel = { version = "2.2.12", features = ["sqlite"] }
+dotenvy = "0.15.7"
