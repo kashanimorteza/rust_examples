@@ -1,5 +1,6 @@
 use diesel::prelude::*;
 
+#[allow(dead_code)]
 #[derive(Queryable, Selectable)]
 #[diesel(table_name = crate::schema::posts)]
 #[diesel(check_for_backend(diesel::sqlite::Sqlite))]

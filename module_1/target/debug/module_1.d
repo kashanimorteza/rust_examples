@@ -1,0 +1,1 @@
+/Volumes/data/documents/rust_examples/module_1/target/debug/module_1: /Volumes/data/documents/rust_examples/module_1/src/main.rs /Volumes/data/documents/rust_examples/module_1/src/tools.rs /Volumes/data/documents/rust_examples/module_1/src/util.rs
